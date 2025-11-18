@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C-code Studio - Python</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+    <body>
+        <header>
+            <nav>
+                <a class="est" href="inicio.html">C-code Studio</a>
+                <ul>
+                    <li><a href="ctt.html">C++</a></li>
+                    <li><a href="python.html">Python</a></li>
+                    <li><a href="mysql.html">MySQL</a></li>
+                    <li><a href="html.html">HTML</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <a href="#top" class="subir">↑</a>
+            <h1>Python</h1>
+            <section class="i"><a href="https://www.python.org/"><img src="archivos/python.png" alt="No se pudo cargar la imagen"></a></section>
+            <form action="/ruta-del-servidor" method="get">
+                <label for="buscador">Buscar:</label>
+                <input type="text" id="buscador" name="q" placeholder="Introduce tu búsqueda">
+                <button type="submit">Buscar</button>
+            </form>
+            <h2>Indice</h2>
+            <ul>
+                <li><a href="#s1">¿Qué es?</a></li>
+                <li><a href="#s2">¿Cuál es su función?</a></li>
+                <li><a href="#s3">¿Qué sabemos de su historia?</a></li>
+                <li><a href="#s4">¿Cuáles son sus etiquetas basicas?</a></li>
+                <li><a href="#s15">¿Cuales son sus caracteristicas?</a></li>
+            </ul>
+            <h3 id="s1">¿Qué es?</h3>
+            <p>Python es un lenguaje de programación de alto nivel, interpretado y de propósito general. Se destaca por su sintaxis sencilla y legible, lo que lo convierte en una excelente opción tanto para principiantes como para profesionales. Su diseño busca que el código sea fácil de escribir y entender, pareciéndose más al lenguaje humano que a la estructura técnica de otros lenguajes.</p>
+            <p>Además, Python es un lenguaje multiparadigma, lo que significa que permite distintos estilos de programación: estructurada, orientada a objetos y funcional. Gracias a esto, puede utilizarse en una gran variedad de campos como inteligencia artificial, desarrollo web, análisis de datos, automatización y más.</p>
+            <br>
+            <h3 id="s2">¿Cuál es su función?</h3>
+            <p>El propósito principal de Python es facilitar la creación de programas claros, eficientes y versátiles sin necesidad de usar una sintaxis complicada. <br> Sus funciones más destacadas son:</p>
+            <ul>
+                <li>Automatizar tareas repetitivas (por ejemplo, mover archivos, procesar datos o generar reportes).</li>
+                <li>Desarrollar aplicaciones web y de escritorio, usando frameworks como Django o Flask.</li>
+                <li>Trabajar con inteligencia artificial y análisis de datos, gracias a librerías potentes como TensorFlow, Pandas y NumPy.</li>
+            </ul>
+            <p>Además, Python tiene una gran comunidad mundial que constantemente desarrolla librerías nuevas, lo cual amplía sus capacidades. Por su facilidad de aprendizaje y su enorme ecosistema, es uno de los lenguajes más usados y solicitados en el mundo de la programación. </p>
+            <br>
+            <h3 id="s3">¿Qué sabemos de su historia?</h3>
+            <p>Python fue creado por Guido van Rossum a finales de los años 80, en el Centro para las Matemáticas y la Informática (CWI) en los Países Bajos. Su desarrollo comenzó en 1989 y la primera versión oficial se lanzó en 1991. Guido buscaba un lenguaje que fuera tan poderoso como C, pero mucho más fácil de leer y escribir. De hecho, el nombre “Python” no viene del animal, sino del grupo de comedia británico Monty Python, ya que su creador quería un lenguaje divertido de usar.</p>
+            <p>Con el tiempo, Python evolucionó con versiones como Python 2.0 (2000) y Python 3.0 (2008), esta última marcando un cambio importante que mejoró la claridad y la coherencia del lenguaje. Hoy en día, Python 3 es el estándar mundial y continúa recibiendo actualizaciones.</p>
+            <p>Actualmente, Python es uno de los lenguajes más populares del planeta, usado por empresas como Google, NASA, Meta y Netflix. Su combinación de simplicidad, potencia y comunidad activa lo ha convertido en una herramienta esencial para la tecnología moderna.</p>
+            <br>
+            <h3 id="s4">¿Cuales son sus etiquetas basicas?</h3>
+            <p>Aunque el lenguaje de Python tiene un amplio y profundo contenido en cada una de sus librerias, por ahora solo hablaremos de la categoría más básica de este.</p>
+            <ul>
+                <li><a href="#s5">print()</a></li>
+                <li><a href="#s6">input()</a></li>
+                <li><a href="#s7">if/elif/else</a></li>
+                <li><a href="#s8">for</a></li>
+                <li><a href="#s9">while</a></li>
+                <li><a href="#s10">def</a></li>
+                <li><a href="#s11">import</a></li>
+                <li><a href="#s12">class</a></li>
+                <li><a href="#s13">try/except</a></li>
+                <li><a href="#s14">return</a></li>
+            </ul>
+            <section class="inter">
+                <h4 id="s5">print()</h4>
+                <p>Significado: “Imprimir”</p>
+                <p>Explicación: Se utiliza para mostrar información en pantalla. Puede imprimir texto, números, resultados de operaciones o el contenido de variables. Es una de las primeras funciones que se aprende en Python, porque permite visualizar lo que el programa está haciendo. </p>
+                <h4 id="s6">input()</h4>
+                <p>Significado: “Entrada”</p>
+                <p>Explicación: Permite recibir datos del usuario desde el teclado. Todo lo que el usuario escriba se almacena como texto (tipo str), aunque luego se puede convertir a número si se necesita. </p>
+                <h4 id="s7">if/elif/else</h4>
+                <p>Significado: “Si / sino si / de lo contrario”</p>
+                <p>Explicación: Se usan para tomar decisiones dentro del programa. Evalúan condiciones y ejecutan diferentes bloques de código según si son verdaderas o falsas. </p>
+                <h4 id="s8">for</h4>
+                <p>Significado: “Para”</p>
+                <p>Explicación: Es un bucle que recorre una secuencia (lista, cadena, rango, etc.) y ejecuta el código dentro de él por cada elemento. Es muy usado para procesar datos o repetir acciones un número conocido de veces. </p>
+                <h4 id="s9">while</h4>
+                <p>Significado: “Mientras”</p>
+                <p>Explicación: Ejecuta un bloque de código mientras una condición sea verdadera. Se usa cuando no se sabe cuántas veces se repetirá la acción, por ejemplo, al esperar una entrada específica del usuario. </p>
+                <h4 id="s10">def</h4>
+                <p>Significado: “Definir”</p>
+                <p>Explicación: Se usa para definir una función, es decir, un bloque de código que realiza una tarea específica y puede reutilizarse. Las funciones pueden recibir valores (parámetros) y devolver resultados. </p>
+                <h4 id="s11">import</h4>
+                <p>Significado: “Importar”</p>
+                <p>Explicación: Sirve para traer módulos o librerías externas a tu programa. Estas librerías contienen funciones ya creadas que amplían las capacidades de Python, como trabajar con matemáticas, fechas o archivos. </p>
+                <h4 id="s12">class</h4>
+                <p>Significado: “Clase”</p>
+                <p>Explicación: Define una clase, que es una plantilla para crear objetos. Se usa en la programación orientada a objetos para agrupar datos (atributos) y comportamientos (métodos) relacionados. </p>
+                <h4 id="s13">try/except</h4>
+                <p>Significado: “Intentar / excepto”</p>
+                <p>Explicación: Se usa para manejar errores o excepciones. Permite que el programa no se detenga si ocurre un error, sino que ejecute una acción alternativa. </p>
+                <h4 id="s14">return</h4>
+                <p>Significado: “Devolver”</p>
+                <p>Explicación: Se utiliza dentro de una función para enviar un resultado o valor al lugar desde donde fue llamada. Es la forma de que una función “entregue” su resultado. </p>
+            </section>
+            <br>
+        </main>
+        <footer>
+            <form action="bd.php">
+                <label for="comentarios"> ¡Déjanos tus comentarios! <br> ¿Qué te pareció la información? </label>
+				<textarea id="comentarios" name="comentarios" rows="5" placeholder="Escríbenos tu mensaje!"> </textarea> <br>
+				<button type = "submit"> Registrar </button>
+            </form>
+        </footer>
+    </body>
+</html>
